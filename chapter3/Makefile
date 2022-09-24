@@ -26,4 +26,4 @@ clean:
 	$(SBT_TOOL) clean
 
 distclean:
-	rm -rf .bsp .idea generated project target test_run_dir
+	rm -rf .bsp .idea .DS_Store generated project target test_run_dir
