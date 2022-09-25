@@ -4,8 +4,14 @@ SBT_TOOL=sbt
 hdl:
 	$(SBT_TOOL) run
 
-AdderTest:
-	$(SBT_TOOL) "testOnly AdderTest"
+NestedCompTest:
+	$(SBT_TOOL) "testOnly NestedCompTest"
+
+ALUTest:
+	$(SBT_TOOL) "testOnly ALUTest"
+
+DelayOneClkTest:
+	$(SBT_TOOL) "testOnly DelayOneClkTest"
 
 clean:
 	$(SBT_TOOL) clean
