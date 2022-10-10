@@ -22,6 +22,15 @@ TimerTest:
 TimerOtherTest:
 	$(SBT_TOOL) "testOnly TimerOtherTest"
 
+PwmTest:
+	$(SBT_TOOL) "testOnly PwmTest"
+
+Pwm1Test:
+	$(SBT_TOOL) "testOnly Pwm1Test"
+
+MemoryTest:
+	$(SBT_TOOL) "testOnly MemoryTest"
+
 clean:
 	$(SBT_TOOL) clean
 
