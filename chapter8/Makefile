@@ -13,6 +13,12 @@ SimpleFsmTest:
 SimpleFsmSyncTest:
 	$(SBT_TOOL) "testOnly SimpleFsmSyncTest"
 
+RisingMealyFsmTest:
+	$(SBT_TOOL) "testOnly RisingMealyFsmTest"
+
+RisingMooreFsmTest:
+	$(SBT_TOOL) "testOnly RisingMooreFsmTest"
+
 clean:
 	$(SBT_TOOL) clean
 
