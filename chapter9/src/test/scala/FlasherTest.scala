@@ -38,6 +38,6 @@ class FlasherTest extends AnyFlatSpec with ChiselScalatestTester {
 
   it should "pass" in {
     test(new Flasher).withAnnotations(Seq(WriteVcdAnnotation)) { dut => testFn(dut) }
-    //test(new Flasher2).withAnnotations(Seq(WriteVcdAnnotation)) { dut => testFn(dut) }
+    test(new Flasher2).withAnnotations(Seq(WriteVcdAnnotation)) { dut => testFn(dut) }
   }
 }

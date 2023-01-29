@@ -68,7 +68,7 @@ class Flasher extends FlasherBase {
 	when(!timerDone) {
 		timerReg := timerReg - 1.U
 	}
-	when(!timerDone) {
+	when(timerLoad) {
 		when (timerSelect) {
 			timerReg := 5.U
 		} .otherwise {
