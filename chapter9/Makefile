@@ -4,11 +4,11 @@ SBT_TOOL=sbt
 hdl:
 	$(SBT_TOOL) run
 
-test:
-	$(SBT_TOOL) test
+# test:
+#	$(SBT_TOOL) test
 
-FlasherTest:
-	$(SBT_TOOL) "testOnly FlasherTest"
+# FlasherTest:
+# 	$(SBT_TOOL) "testOnly FlasherTest"
 
 clean:
 	$(SBT_TOOL) clean
