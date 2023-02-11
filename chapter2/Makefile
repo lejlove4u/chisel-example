@@ -8,4 +8,9 @@ clean:
 	$(SBT_TOOL) clean
 
 distclean:
-	rm -rf .bsp .idea .DS_Store generated project target test_run_dir
+	./mac_cleanup_objects.sh
+
+win_distclean:
+	win_cleanup_objects.bat
+
+#	rm -rf .bsp .idea .DS_Store generated project target test_run_dir

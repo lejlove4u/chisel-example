@@ -1,0 +1,10 @@
+IF EXIST .bloop         (rd /Q /S .bloop)
+IF EXIST .bsp           (rd /Q /S .bsp)
+IF EXIST .metals        (rd /Q /S .metals)
+IF EXIST .vscode        (rd /Q /S .vscode)
+IF EXIST generated      (rd /Q /S generated)
+IF EXIST project        (rd /Q /S project)
+IF EXIST target         (rd /Q /S target)
+IF EXIST test_run_dir   (rd /Q /S test_run_dir)
+
+REM IF EXIST .\chisel-book.pdf	(del /Q /S .\chisel-book.pdf)
