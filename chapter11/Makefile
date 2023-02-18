@@ -7,15 +7,6 @@ hdl:
 test:
 	$(SBT_TOOL) test
 
-MainTest:
-	$(SBT_TOOL) "testOnly MainTest"
-
-MainTestExpect:
-	$(SBT_TOOL) "testOnly MainTestExpect"
-
-MainTestWaveform:
-	$(SBT_TOOL) "testOnly MainTestWaveform"
-
 clean:
 	$(SBT_TOOL) clean
 
